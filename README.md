@@ -1,3 +1,3 @@
 ## My portfolio
 
-[Preview the site](https://portfolioanton.netlify.app/)
+[Show the site](https://portfolioanton.netlify.app/)
