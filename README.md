@@ -1,3 +1,3 @@
-## Preview the site
+## My portfolio
 
-[Link Text](https://portfolioanton.netlify.app/)
+[Preview](https://portfolioanton.netlify.app/)
