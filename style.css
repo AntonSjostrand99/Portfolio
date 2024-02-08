@@ -130,6 +130,7 @@ body {
 
 .card__descr-wrapper {
   padding: 15px;
+
 }
 
 .card__title {
@@ -151,9 +152,10 @@ body {
 .card__links {
   margin-top: 10px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-self: flex-end;
   font-family: 'Rubik Doodle Shadow', system-ui;
+  
 }
 
 .card__links .link {
@@ -241,7 +243,7 @@ footer {
 @media  (max-width: 768px) {
   .flex-container {
     padding: 10px;
-    /* Justera utrymmet på mindre skärmar */
+   
   }
 }
 
@@ -347,15 +349,51 @@ footer {
   }
 
   .sub-heading {
-    font-size: 1rem;
+    font-size: 1.4rem;
     font-weight: 600;
   }
 
   .projectHeading {
 
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 800;
   }
+
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+    min-height: 300px; 
+  
+  }
+  
+
+ 
+
+}
+
+
+
+
+@media  (max-width: 375px) {
+  .main-heading {
+    font-size: 2.5rem;
+
+  }
+
+  .sub-heading {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  .projectHeading {
+
+    font-size: 1rem;
+    font-weight: 800;
+  }
+
+
 
  
 
