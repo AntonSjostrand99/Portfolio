@@ -438,12 +438,53 @@ footer {
     font-size: 0.8rem;
     font-weight: 800;
   }
+}
+
+
+@media  (max-width: 240px) {
+  .main-heading {
+    font-size: 1.6rem;
+
+  }
+
+  .sub-heading {
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+
+  .projectHeading {
+
+    font-size: 0.7rem;
+    font-weight: 800;
+  }
+
+}
+
+
+@media  (max-width: 216px) {
+  .main-heading {
+    font-size: 1.4rem;
+
+  }
+
+  .sub-heading {
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+
+  .projectHeading {
+
+    font-size: 0.7rem;
+    font-weight: 800;
+  }
 
 
 
  
 
 }
+
+
 
 
 
