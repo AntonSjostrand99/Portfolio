@@ -385,7 +385,8 @@ footer {
 
 @media  (max-width: 375px) {
   .main-heading {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
+ 
 
   }
 
@@ -484,6 +485,30 @@ footer {
 
 }
 
+
+
+@media  (max-width: 194px) {
+  .main-heading {
+    font-size: 1rem;
+
+  }
+
+  .sub-heading {
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+
+  .projectHeading {
+
+    font-size: 0.7rem;
+    font-weight: 800;
+  }
+
+
+
+ 
+
+}
 
 
 
