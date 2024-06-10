@@ -14,7 +14,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; /* Ändrad från flex-start till center */
+  justify-content: center;
   min-height: 100vh;
   margin-top: 0;
 }
@@ -25,7 +25,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
-  width: 100%; /* Lägger till denna för att säkerställa full bredd */
+  width: 100%;
 }
 
 .main-heading {
@@ -35,7 +35,7 @@ body {
   text-transform: uppercase;
   font-family: 'League Gothic', sans-serif;
   color: #fff;
-  text-align: center; /* Se till att texten centreras */
+  text-align: center;
 }
 
 .sub-heading {
@@ -46,7 +46,7 @@ body {
   font-weight: 600;
   text-decoration: underline;
   text-underline-offset: 0.4rem;
-  text-align: center; /* Lägg till text-align här också */
+  text-align: center;
 }
 
 .name {
@@ -91,7 +91,7 @@ body {
   width: 250px;
   min-height: 350px;
   border-radius: 1.2rem;
-  justify-content: center;
+  justify-content: space-between; /* Ändrad från center till space-between */
   align-items: center;
   transition: 0.4s;
   box-shadow: 0 0 25px rgb(213, 227, 238);
@@ -105,7 +105,7 @@ body {
 
 .card__img {
   width: 100%;
-  height: 100%;
+  height: 150px; /* Specificera en höjd för bilden */
   object-fit: cover;
   border-radius: 20px 20px 0 0;
   background-color: blueviolet;
@@ -113,21 +113,24 @@ body {
 
 .card__descr-wrapper {
   padding: 15px;
+  width: 100%; /* Gör wrappern lika bred som kortet */
+  box-sizing: border-box;
 }
 
 .card__title {
-  color: var(--font-color);
+  color: #171717; /* Ändrad från var(--font-color) till en specifik färg */
   margin-bottom: 15px;
   font-weight: 900;
   font-size: 1.8rem;
   font-family: 'Rubik Doodle Shadow', system-ui;
+  text-align: center;
 }
 
 .svg {
   width: 25px;
   height: 25px;
   transform: translateY(25%);
-  fill: var(--font-color);
+  fill: #171717; /* Ändrad från var(--font-color) till en specifik färg */
 }
 
 .card__links {
@@ -139,7 +142,7 @@ body {
 }
 
 .card__links .link {
-  color: var(--font-color);
+  color: #171717; /* Ändrad från var(--font-color) till en specifik färg */
   font-weight: 600;
   font-size: 1.1rem;
   text-decoration: none;
@@ -322,6 +325,7 @@ footer {
 
   .card__title {
     font-size: 1.2rem;
+   
   }
 }
 

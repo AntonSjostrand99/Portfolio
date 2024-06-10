@@ -78,7 +78,7 @@
 					<div class="card__img"></div>
 					<div class="card__descr-wrapper">
 						<p class="card__title">
-							Senast Gais <br> vann SM-Guld
+							Senast Gais vann SM-Guld
 						</p>
 						<div class="card__links">
 							<div>
@@ -108,6 +108,7 @@
 						</div>
 					</div>
 				</div>
+			
 			</section>
 		</section>
 
@@ -143,15 +144,18 @@
 
 
 <script>
-	let cards = document.querySelectorAll('.card__img');
+	let cardsImg = document.querySelectorAll('.card__img');
 
-cards.forEach((card, index) => {
+cardsImg.forEach((cardImg, index) => {
     // Generera en slumpmässig hex-färg
     let randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
 
     // Tilldela färgen till bakgrund
-    card.style.backgroundColor = randomColor;
+    cardImg.style.backgroundColor = randomColor;
 });
+
+
+
 </script>
 
 </body>
